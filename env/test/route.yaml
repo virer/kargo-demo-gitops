@@ -1,0 +1,7 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: httpd
+spec:
+  host: kargo-demo-test.apps.lab.virer.net
+
