@@ -4,6 +4,7 @@ namespace: kargo-demo-test
 
 resources:
 - ../../base
+- namespace.yaml
 
 patches:
  - path: route.yaml
