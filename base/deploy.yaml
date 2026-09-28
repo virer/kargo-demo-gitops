@@ -13,5 +13,5 @@ spec:
         app: kargo-demo
     spec:
       containers:
-      - name: nginx 
-        image: public.ecr.aws/nginx/nginx:placeholder
+      - name: httpd 
+        image: quay.io/rh-ee-scaps/httpd:2.4.68-1-8
