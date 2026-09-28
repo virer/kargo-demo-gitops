@@ -1,12 +1,12 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: httpd
+  name: kargo-demo
 spec:
   host: kargo-demo.apps.lab.virer.net
   to:
     kind: Service
-    name: httpd
+    name: kargo-demo
     weight: 100
   port:
     targetPort: 8080
