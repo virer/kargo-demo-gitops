@@ -2,6 +2,9 @@ kind: ConfigMap
 apiVersion: v1
 metadata:
   name: httpd-homepage
+  label:
+    env: test
 data:
   index.html: "<html><body><center><h2><br><br><br>Hello <font color=red>TEST</font> World !</h2></center></body></html>"
+  test.txt: Hello 
 
