@@ -1,0 +1,10 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: httpd-homepage
+  labels:
+    env: prod
+data:
+  index.html: "<html><body><center><h2><br><br><br>Hello <font color=red>PROD</font> World !</h2></center></body></html>"
+  prod.txt: Hello 
+
