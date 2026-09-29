@@ -7,5 +7,9 @@ resources:
 - namespace.yaml
 
 patches:
- - path: route.yaml
- - path: configMap.yaml
+- path: route.yaml
+- path: configMap.yaml
+images:
+- name: httpd
+  newName: quay.io/rh-ee-scaps/httpd
+  newTag: 2.4.68-1-9
